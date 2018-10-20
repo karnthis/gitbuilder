@@ -1,0 +1,20 @@
+{
+  "name": "repobuilder",
+  "version": "1.0.0",
+  "description": "Node tool to build git repos from very large file sets (10k+)",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node ./index.js"
+	},
+	"tags": [
+		"git",
+		"autocommit"
+	],
+  "author": "Karnthis",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "*",
+    "simple-git": "*"
+  }
+}
